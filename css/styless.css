@@ -250,6 +250,7 @@ h1 {
     font-weight: 400;
     font-size: 64px;
     line-height: 70px;
+    color: red;
 }
 .background_image {
     position: absolute;
