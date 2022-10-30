@@ -9,50 +9,84 @@
     <link rel="stylesheet" href="css/styless.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <header>
-    <div class="container header">
-        <a href="#">
-            <img src="img/logo.svg" alt="logo">
-        </a>
-        <nav>
-            <ul style="list-style: none; display: flex;">
+    <div class="header" >
+        <div class="header_menu">
+            <a href="#" class="logo_2" >
+                <img src="img/logo.svg" alt="Logo" >
+            </a>
+            <input  class="menu-btn" type="checkbox" id="menu-btn" />
+            <label  class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu" >
                 <li>
-                    <a href="#">
-                        Projects
-                    </a>
+                    <a href="#">Projects</a>
                 </li>
                 <li>
-                    <a href="#">
-                        About
-                    </a>
+                    <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">
-                        News
-                    </a>
+                    <a href="#">News</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Team
-                    </a>
+                    <a href="#">Team</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Contact
-                    </a>
+                    <a href="#">Contact</a>
                 </li>
                 <li>
-                    <a href="#" class="button button_filled">
-                        Get template
-                    </a>
+                    <a href="#" class="button button_filled">Get template</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </div>
 </header>
+<!--<header>-->
+<!--    <div class="container header">-->
+<!--        <a href="#">-->
+<!--            <img src="img/logo.svg" alt="logo">-->
+<!--        </a>-->
+<!--        <nav>-->
+<!--            <ul style="list-style: none; display: flex;">-->
+<!--                <li>-->
+<!--                    <a href="#">-->
+<!--                        Projects-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">-->
+<!--                        About-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">-->
+<!--                        News-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">-->
+<!--                        Team-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">-->
+<!--                        Contact-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#" class="button button_filled">-->
+<!--                        Get template-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</header>-->
 <section class="image_section">
     <div class="image_section_2">
         <h4>
@@ -104,7 +138,34 @@
         <h2 class="h2_margin_bottom">
             How we do what we do.
         </h2>
-        <div class="container_2piece">
+        <div class="container_2piece owl-carousel">
+            <article>
+                <img src="img/Sketching-Icon.png" alt="Sketching">
+                <h3 class="headline headline_2">
+                    Sketching
+                </h3>
+                <p class="subtext">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.
+                </p>
+            </article>
+            <article>
+                <img src="img/Finalizing-Icon.png" alt="Finalizing">
+                <h3 class="headline headline_2">
+                    Finalizing
+                </h3>
+                <p class="subtext">
+                    Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.
+                </p>
+            </article>
+            <article>
+                <img src="img/Building-Icon.png" alt="Building">
+                <p class="headline headline_2">
+                    Building
+                </p>
+                <p class="subtext">
+                    Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.
+                </p>
+            </article>
             <article>
                 <img src="img/Sketching-Icon.png" alt="Sketching">
                 <h3 class="headline headline_2">
@@ -141,7 +202,7 @@
         <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
     </div>
 </section>
-<section class="section_bg">
+<section class="section_bg padding_4">
     <div class="container padding">
         <div class="wraper">
             <h4 class="h4 subhead_margin">
@@ -152,23 +213,19 @@
             </h3>
             <p class="p text_margin_top">Morbi neque ex, condimentum dapibus congue et,<br> vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris<br> euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
         </div>
-        <div class="logos_wrapper">
-            <div class="logo_wrapper">
-                <a href="#" class="logo logos_margin_right">
-                    <img src="img/Logo%203.svg" alt="Logo">
-                </a>
-                <a href="#" class="logo">
-                    <img src="img/Logo%201.svg" alt="Logo">
-                </a>
-            </div>
-            <div class="logo_wrapper logos_margin_top">
-                <a href="#" class="logo logos_margin_right">
-                    <img src="img/Logo%204.svg" alt="Logo">
-                </a>
-                <a href="#" class="logo">
-                    <img src="img/Logo%206.svg" alt="Logo">
-                </a>
-            </div>
+        <div class="logos_wrapper owl-carousel">
+            <a href="#" class="logo">
+                <img src="img/Logo%203.svg" alt="Logo">
+            </a>
+            <a href="#" class="logo margin_button_2" >
+                <img src="img/Logo%201.svg" alt="Logo">
+            </a>
+            <a href="#" class="logo">
+                <img src="img/Logo%204.svg" alt="Logo">
+            </a>
+            <a href="#" class="logo margin_button_2">
+                <img src="img/Logo%206.svg" alt="Logo">
+            </a>
         </div>
     </div>
 </section>
@@ -178,8 +235,47 @@
         <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
     </div>
 </section>
+<section class="bg white">
+    <div class="container container_3">
+        <h2>Featured projects</h2>
+        <p>Some of the latest and greatest projects from us<br> here at Wishbone+Partners.</p>
+        <div class="container">
+            <article>
+                <div class="descr">
+                    <h4>
+                        NEW YORK
+                        <span>Big Road Brewery</span>
+                    </h4>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="img/IMAGE_(2).jpg" alt="img">
+            </article>
+            <article>
+                <div class="descr">
+                    <h4>
+                        NEW YORK
+                        <span>Big Road Brewery</span>
+                    </h4>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="img/IMAGE_(3).jpg" alt="img">
+            </article>
+            <article>
+                <div class="descr">
+                    <h4>
+                        NEW YORK
+                        <span>Big Road Brewery</span>
+                    </h4>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="img/IMAGE_(4).jpg" alt="img">
+            </article>
+        </div>
+        <a href="#" class="button">View all projects</a>
+    </div>
+</section>
 <section>
-    <div class="container">
+    <div class="container container_block">
         <div>
             <h3 class="h3_2">Meet our team</h3>
             <p class="text_margin_top p_2">
@@ -190,46 +286,42 @@
             </div>
         </div>
         <div class="wrapper_6">
-            <div class="wrapper_4">
-                <article class="wrapper_3 wrapper_3_marginright">
-                    <img src="img/Avatar%201.png" alt="Avatar">
-                    <div class="text">
-                        <p class="headline">Stephen Collier</p>
-                        <p class="subhead">Senior Partner</p>
-                    </div>
-                </article>
-                <article class="wrapper_3 wrapper_3_marginright wrapper_4_margin_top">
-                    <img src="img/Avatar_2.svg" alt="Avatar">
-                    <div class="text">
-                        <p class="headline">Ferris Wonder</p>
-                        <p class="subhead">Associate Partner</p>
-                    </div>
-                </article>
-                <article class="wrapper_3 wrapper_3_marginright wrapper_4_margin_top">
-                    <img src="img/Avatar_3.svg" alt="Avatar">
-                    <div class="text">
-                        <p class="headline">Niko Ferry</p>
-                        <p class="subhead">Partner</p>
-                    </div>
-                </article>
-
-            </div>
-            <div class="wrapper_4">
-                <article class="wrapper_3">
-                    <img src="img/Avatar_4.svg" alt="Avatar">
-                    <div class="text">
-                        <p class="headline">Nolan Peters</p>
-                        <p class="subhead">Associate</p>
-                    </div>
-                </article>
-                <article class="wrapper_3 wrapper_4_margin_top">
-                    <img src="img/Avatar_5.svg" alt="Avatar">
-                    <div class="text">
-                        <p class="headline">Aria Stone</p>
-                        <p class="subhead">Senior Partner</p>
-                    </div>
-                </article>
-            </div>
+            <article class="wrapper_3">
+                <img src="img/Avatar%201.png" alt="Avatar">
+                <div class="text">
+                    <p class="headline">Stephen Collier</p>
+                    <p class="subhead">Senior Partner</p>
+                </div>
+            </article>
+            <article class="wrapper_3">
+                <img src="img/Avatar_4.svg" alt="Avatar">
+                <div class="text">
+                    <p class="headline">Nolan Peters</p>
+                    <p class="subhead">Associate</p>
+                </div>
+            </article>
+            <article class="wrapper_3">
+                <img src="img/Avatar_2.svg" alt="Avatar">
+                <div class="text">
+                    <p class="headline">Ferris Wonder</p>
+                    <p class="subhead">Associate Partner</p>
+                </div>
+            </article>
+            <article class="wrapper_3">
+                <img src="img/Avatar_5.svg" alt="Avatar">
+                <div class="text">
+                    <p class="headline">Aria Stone</p>
+                    <p class="subhead">Senior Partner</p>
+                </div>
+            </article>
+            <article class="wrapper_3">
+                <img src="img/Avatar_3.svg" alt="Avatar">
+                <div class="text">
+                    <p class="headline">Niko Ferry</p>
+                    <p class="subhead">Partner</p>
+                </div>
+            </article>
+            <div></div>
         </div>
     </div>
 </section>
@@ -273,5 +365,17 @@
         </ul>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
+<!--<script src="index.js"></script>-->
 </body>
 </html>
+<!--<nav class="navbar" id="myNavbar">-->
+<!--    <div><a href="#home" class="active">Home</a>-->
+<!--        <a href="#news">News</a>-->
+<!--        <a href="#contact">Contact</a>-->
+<!--        <a href="#about">About</a>-->
+<!--        <a href="#about">About</a></div>-->
+<!--    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>-->
+<!--</nav>-->
