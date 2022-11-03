@@ -572,9 +572,11 @@ header {
     text-decoration: none;
 }
 .header li:last-child a {
-    padding: 11px 20px;
+    /*padding: 11px 20px;*/
     /*margin-top: 9px;*/
     color: #fff;
+    padding: 0;
+    margin-right: 0;
 }
 .header li a:hover,
 .header .menu-btn:hover {
@@ -666,6 +668,7 @@ header {
 }
 
 
+
 .button {
 
     box-sizing: border-box;
@@ -708,6 +711,52 @@ header {
     justify-content: center;
 }
 
+.ui-widget-header,.ui-state-default, ui-button{
+    background:#ECE7E4;
+    border: 0px solid #000;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.ui-dialog .ui-dialog-title {
+    float: left;
+    margin: .1em 0;
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #2e2e2e;
+}
+.dialog_2 {
+    font-size: 16px;
+    line-height: 24px;
+}
 
+.ui-widget-content {
+    border: 0px solid #dddddd;
+    background: #ffffff;
+    color: #333333;
+    box-shadow: 0 16px 30px 0 rgba(0, 0, 0, 8%) ;
 
-
+}
+.ui-button .ui-icon {
+    background-image: url("../img/Icons_2.png") ;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+    border: 1px solid #cccccc;
+    background: #2e2e2e;
+    font-weight: normal;
+    color: #2b2b2b;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    background: #2b2b2b;
+    position: absolute;
+    right: .3em;
+    top: 50%;
+    width: 20px;
+    margin: -10px 0 0 0;
+    padding: 1px;
+    height: 20px;
+}
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
+    background-image: url("../img/Icons_2.png") ;
+}
