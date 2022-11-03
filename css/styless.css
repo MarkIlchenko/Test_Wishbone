@@ -572,16 +572,10 @@ header {
     text-decoration: none;
 }
 .header li:last-child a {
-    /*padding: 11px 20px;*/
-    /*margin-top: 9px;*/
+    padding: 11px 20px;
     color: #fff;
-    padding: 0;
-    margin-right: 0;
 }
-.header li a:hover,
-.header .menu-btn:hover {
-    background-color: #f4f4f4;
-}
+
 .white {
     background-color: #f4f4f4;
 }
